@@ -64,7 +64,8 @@ group :test do
   gem "selenium-webdriver"
 
 end
-gem "activegraph", ">= 11.1"
+
+gem "activegraph", "=> 11.1"
 
 group :development do
   gem "neo4j-rake_tasks"
